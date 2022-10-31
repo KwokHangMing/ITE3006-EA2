@@ -1,4 +1,4 @@
-# ITE3006-EA2
+# jump
 
 set your account's default identity:
 
