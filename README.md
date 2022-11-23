@@ -1,4 +1,4 @@
-# jump
+# Puck Froject
 ```git clone https://github.com/KwokHangMing/ITE3006-EA2.git```
 
 set your account's default identity:
