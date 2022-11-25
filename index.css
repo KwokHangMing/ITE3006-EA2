@@ -27,16 +27,19 @@ body {
 }
 
 #nav {
-    width: 300px;
+    background-color: azure;
 }
 
 #aside {
-    
+    background-color: beige;
 }
 
+#footer {
+    background-color: brown;
+}
 @media only screen and (max-width: 1000px) {
     #nav {
-        width: 100px;
+        height: auto;
     }
 
     #main {
@@ -45,13 +48,13 @@ body {
     }
 
     #aside {
-        width: 80px;
+        height: auto;
     }
 }
 
 @media only screen and (max-width: 800px) {
     #nav {
-        width: 100%;
+        background-color: aquamarine;
     }
 
     body {

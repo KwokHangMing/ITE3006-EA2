@@ -1,9 +1,21 @@
 <!DOCTYPE html>
+
 <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Page 2 by Kwok hang ming</title>
+    <script type="text/javascript">
+        function go_to(place) {
+            window.location = place;
+        }
+        document.write("hello world from Javascript");
+    </script>
 </head>
 
 <body>
-    
+    <form>
+        <input type="button" value="Go Youtube!" onClick="go_to('https://youtu.be/dQw4w9WgXcQ');" />
+        <br />
+    </form>
 </body>
+
 </html>
