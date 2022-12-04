@@ -4,61 +4,57 @@ body {
     background-color: grey;
 }
 
-#header,
-#nav,
-#main,
-#aside,
-#footer {
-    background: yellowgreen;
-    border: 1px salmon pink;
-    border-radius: 12px;
-    margin:10px;
-    padding: 20px;
-}
-
-#header {
-    height: auto;
-    width: 100%;
-}
-
-#main {
+#sparring_partner,
+#breaking_bad,
+#rickroll {
+    background: pink;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 15px;
     display: flex;
-    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: row;
 }
 
-#nav {
-    background-color: azure;
+#sparring_partner_text,
+#breaking_bad_text,
+#rickroll_text {
+    background: aqua;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 40px;
 }
 
-#aside {
-    background-color: beige;
-}
-
-#footer {
-    background-color: brown;
-}
 @media only screen and (max-width: 1000px) {
-    #nav {
-        height: auto;
+    #sparring_partner_text {
+        padding: 20px;
+        float: left;
+        width: 100%;
     }
-
-    #main {
-        height: auto;
-        background-color: aqua;
+    #breaking_bad_text {
+        list-style: none;
+        display: flex;
+        flow-direction: row;
+        justify-content: space-around;
     }
-
-    #aside {
-        height: auto;
+    #rickroll_text {
+        padding: 20px;
+        float: left;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    #nav {
-        background-color: aquamarine;
+    #sparring_partnet_text {
+        display: none;
     }
-
-    body {
-        height: auto;
-        background-color: pink;
+    #breaking_bad_text {
+        display: none;
+    }
+    #rickroll_text {
+        display: none;
     }
 }
