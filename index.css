@@ -1,12 +1,13 @@
 body {
     margin: 0px;
+    padding: 0px;
     font-family: Georgia;
     background-color: grey;
 }
 
-#sparring_partner,
-#breaking_bad,
-#rickroll {
+.sparring_partner,
+.breaking_bad,
+.rickroll {
     background: pink;
     border: 1px solid black;
     border-radius: 6px;
@@ -16,11 +17,12 @@ body {
     align-items: center;
     flex-direction: row;
     float: left;
+    width: 2000px;
 }
 
-#sparring_partner_text,
-#breaking_bad_text,
-#rickroll_text {
+.sparring_partner_text,
+.breaking_bad_text,
+.rickroll_text {
     background: aqua;
     border: 2px solid red;
     border-radius: 10px;
@@ -29,33 +31,35 @@ body {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 1200px) {
-    #sparring_partner_text {
+@media only screen and (max-width: 1500px) {
+    .sparring_partner_text {
         padding: 20px;
         float: left;
         width: 100%;
     }
-    #breaking_bad_text {
+    .breaking_bad_text {
         list-style: none;
         display: flex;
-        flow-direction: row;
         justify-content: space-around;
     }
-    #rickroll_text {
+    .rickroll_text {
         padding: 20px;
         float: left;
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    #sparring_partnet_text {
+@media only screen and (max-width: 1000px) {
+    .sparring_partner_text {
         display: none;
+        width: 1000px;
     }
-    #breaking_bad_text {
+    .breaking_bad_text {
         display: none;
+        width: 1000px;
     }
-    #rickroll_text {
+    .rickroll_text {
         display: none;
+        width: 1000px;
     }
 }
