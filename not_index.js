@@ -1,3 +1,3 @@
 function alertTest( ) {
-    alert("hello world from javascript");
+    window.alert("hello world from javascript");
     }
