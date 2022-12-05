@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
     <title>Not Home Page</title>
     <h2 align="center">Welcome to our webpage.</h2>
     <link rel="stylesheet" href="not_index.css" type="text/css" />
+    <script type="text/javascript">
+        function go_to(place) {
+            window.location = place;
+        }
+    </script>
 </head>
 
 <body>
+    <input type="button" value="Login" onClick="go_to('login_idk.html');" />
     <div class="sparring_partner">
         <a href="page2.html">
             <img src="images/The_sparring_partner.jpg">
